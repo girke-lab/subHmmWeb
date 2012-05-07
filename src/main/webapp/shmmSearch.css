@@ -1,0 +1,58 @@
+/* 
+    Document   : testStyle
+    Created on : Jul 29, 2009, 1:04:25 PM
+    Author     : khoran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.selectionPanel {
+
+    background-color: #cccccc;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #000000;
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    border-top-color: #000000;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.header {
+
+    font-weight: bold;
+}
+.query {
+
+    vertical-align: top;
+}
+.page-title{
+
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.result-table{
+	
+	border-collapse: collapse;
+}
+a {color: #006699 }
+a:hover {background-color: #AAAAAA}
