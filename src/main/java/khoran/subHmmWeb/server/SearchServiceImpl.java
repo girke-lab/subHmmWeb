@@ -49,17 +49,17 @@ import org.biojava.bio.seq.ProteinTools;
 public class SearchServiceImpl extends RemoteServiceServlet implements
 		SearchService
 {
-	static{
-        System.setProperty("log4j.configuration", SearchServiceImpl.class.getResource("log4j.properties").toString());
-    }
+//	static{
+ //       System.setProperty("log4j.configuration", SearchServiceImpl.class.getResource("log4j.properties").toString());
+  //  }
     public static final Logger log =Logger.getLogger(SearchServiceImpl.class);
 
 	//final private static String subHMMFilename = "/home/khoran/projects/protein_profiles/temp/all.profiles";
-	final private static String subHMMFilename = "/home/khoran/projects/protein_profiles/temp/med.profiles";
+	//final private static String subHMMFilename = "/home/khoran/projects/protein_profiles/temp/med.profiles";
 	//final private static String subHMMFilename = "/home/khoran/projects/protein_profiles/temp/small.profiles";
 
 	// for use on bioweb
-	//final private static String subHMMFilename = "/srv/web/DatabaseWeb/www/data/all.profiles";
+	final private static String subHMMFilename = "/var/www/all.profiles";
 
 	private static class Loader
 	{

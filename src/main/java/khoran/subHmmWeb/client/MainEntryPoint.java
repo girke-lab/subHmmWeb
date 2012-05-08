@@ -273,7 +273,7 @@ public class MainEntryPoint implements EntryPoint , ClickHandler, FormPanel.Subm
 	String shmmLink(String shmm)
 	{
 		String[] parts = shmm.split("-");
-		String link =  " http://biocluster.ucr.edu/~khoran/cgi-bin/displaySubHMM.pl?familyName="+parts[0];
+		String link =  " /scripts/displaySubHMM.pl?familyName="+parts[0];
 		if(parts.length > 1)
 			link += "&subHMM="+parts[1];
 		return link;
