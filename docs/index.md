@@ -46,10 +46,10 @@ The output format is a tab delimited file. The first column is the sub-HMM name,
 Data
 =====
 
-[pfam-22-shmm.gz](https://github.com/girke-lab/retired-projects/releases/download/v1.0/pfam-22-shmm.gz)
+[pfam-22-shmm.gz](https://github.com/girke-lab/subHmmWeb/releases/download/v1.0/pfam-22-shmm.gz)
 
 All sub-HMMs extracted from PFAM version 22.
 
-[shmm-familiy-matches.gz](https://github.com/girke-lab/retired-projects/releases/download/v1.0/shmm-familiy-matches.gz)
+[shmm-familiy-matches.gz](https://github.com/girke-lab/subHmmWeb/releases/download/v1.0/shmm-familiy-matches.gz)
 
 This file documents every link between a sub-HMM and a family that it was not created from. See top of file for field descriptions 
