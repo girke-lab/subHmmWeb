@@ -5,7 +5,7 @@ permalink: /index.html
 A sub-HMM is subset of a full HMM. In this case, we used HMMs from PFAM families. For each full HMM, we extract several sub-HMMs which capture the most important parts of the full HMM. 
 See "[Predicting Conserved Protein Motifs with Sub-HMMs](https://www.researchgate.net/publication/43344964_Predicting_conserved_protein_motifs_with_Sub-HMMs)" for more details.
 
-The Sub-HMM viewer web application has now been retired. The application and data files can still be downloaded using the links below.
+The Sub-HMM viewer web application has now been retired. The application and data files can still be downloaded using the links below. 
 
 
 Applications
